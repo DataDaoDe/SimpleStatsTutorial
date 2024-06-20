@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "simple-stats"
+version = "0.1.0"
+description = ""
+authors = ["John Faucett <jsfaucett87@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+sphinx = "^7.3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

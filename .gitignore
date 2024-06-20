@@ -1,0 +1,3 @@
+*.py[oc]
+.pytest_cache/
+__pycache__/
